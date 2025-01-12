@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import {
   Dispatch,
   ReactNode,
@@ -11,7 +12,7 @@ import toast from "react-hot-toast";
 
 type AuthUserType = {
   id: string;
-  fullName: string;
+  fullname: string;
   email: string;
   profilePic: string;
   gender: string;
@@ -27,7 +28,6 @@ const AuthContext = createContext<{
   isLoading: true,
 });
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const useAuthContext = () => {
   return useContext(AuthContext);
 };
