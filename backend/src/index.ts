@@ -8,7 +8,7 @@ import path from "path";
 
 dotenv.config();
 
-//const app = express();
+const __dirname = path.resolve();
 
 app.use(cookieParser());
 app.use(express.json());
