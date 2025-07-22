@@ -1,6 +1,9 @@
 # Real-Time Chat App with PostgreSQL, TypeScript & Prisma  
 
-This is a real-time chat application built with **PostgreSQL, TypeScript, Node.js, and Prisma**. It supports **user authentication, online status tracking, and real-time messaging** with animations and notification sounds.  
+This is a real-time chat application built with **PostgreSQL, TypeScript, Node.js, and Prisma**. It supports **user authentication, online status tracking, and real-time messaging** with animations and notification sounds.
+
+## Live Demo  
+- **Chat App** – https://chat-app-wlk0.onrender.com 
 
 ## Features  
 - **User Authentication** – Secure login and signup using **JWT (JSON Web Tokens)**  
